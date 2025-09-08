@@ -1,0 +1,18 @@
+[project]
+name = "advanced-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "firecrawl==2.2.0",
+    "firecrawl-py==4.3.5",
+    "langchain[groq]>=0.3.27",
+    "langchain-google-genai>=2.1.10",
+    "langchain-openai>=0.3.32",
+    "langgraph>=0.6.6",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "langchain-community>=0.3.29",
+    "langchain-groq>=0.3.7",
+]
